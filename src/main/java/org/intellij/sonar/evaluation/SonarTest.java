@@ -6,7 +6,7 @@ import org.sonar.wsclient.issue.Issues;
 import org.sonar.wsclient.services.Profile;
 import org.sonar.wsclient.services.Resource;
 import org.sonar.wsclient.services.ResourceQuery;
-import org.sonar.wsclient.services.Rule;
+import org.sonar.wsclient.rule.Rule;
 
 import java.util.List;
 

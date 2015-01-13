@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.codehaus.sonar:sonar-ws-client:4.2'
+    compile 'org.codehaus.sonar:sonar-ws-client:4.5.1'
     compile 'com.squareup.retrofit:retrofit:1.6.1'
     compile 'org.javassist:javassist:3.17.1-GA'
     compile 'com.google.code.gson:gson:2.2.4'

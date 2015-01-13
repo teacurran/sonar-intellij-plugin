@@ -184,10 +184,11 @@ public class SonarServer {
      * @param language like java
      * @return list of all rules for a language
      */
-    public List<org.sonar.wsclient.services.Rule> getRules(String language) {
-        RuleQuery query = new RuleQuery(language);
-        query.setTimeoutMilliseconds(READ_TIMEOUT_IN_MILLISECONDS);
-        return sonar.findAll(query);
+    public List<org.sonar.wsclient.rule.Rule> getRules(String language) {
+        //RuleQuery query = new RuleQuery(language);
+        //query.setTimeoutMilliseconds(READ_TIMEOUT_IN_MILLISECONDS);
+        //return sonar.findAll(query);
+        return null;
     }
 
     public Rule getRule(String key) {
